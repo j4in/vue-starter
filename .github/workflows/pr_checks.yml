@@ -24,6 +24,8 @@ jobs:
         run: yarn
 
       - name: SuperLinter
-        uses: github/super-linter@v4.10.1
+        uses: github/super-linter/slim@v4
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.cjs
+          TYPESCRIPT_DEFAULT_STYLE: prettier
