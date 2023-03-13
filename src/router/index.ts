@@ -6,7 +6,7 @@ import Login from "../views/Login.vue";
 
 import DefaultLayout from "../layout/DefaultLayout.vue";
 import SimpleLayout from "../layout/SimpleLayout.vue";
-
+let t = '';
 const routes = [
   {
     path: "/login",
