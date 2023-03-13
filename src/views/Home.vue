@@ -3,7 +3,7 @@
     <div>
       <h1>Welcome Home</h1>
     </div>
-  </section>
+   </section>
 </template>
 
 <script setup lang="ts"></script>
