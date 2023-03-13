@@ -23,8 +23,7 @@ jobs:
       - name: Install project dependencies
         run: yarn
 
-      - name: Run linters
-        uses: wearerequired/lint-action@v2
-        with:
-          eslint: true
-          prettier: true
+      - name: SuperLinter
+        uses: github/super-linter@v4.10.1
+        env:
+          TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.cjs
