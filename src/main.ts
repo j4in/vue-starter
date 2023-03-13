@@ -3,6 +3,8 @@ import App from "./App.vue";
 import { createPinia } from "pinia";
 import router from "./router";
 
+
+let a = ""
 const pinia = createPinia();
 
 const app = createApp(App);
